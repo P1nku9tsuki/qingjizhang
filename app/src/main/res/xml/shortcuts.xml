@@ -1,0 +1,42 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="add_bill"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add_bill"
+        android:shortcutShortLabel="@string/shortcut_add_bill_short"
+        android:shortcutLongLabel="@string/shortcut_add_bill_long">
+        <intent
+            android:action="com.natsuki.qingjizhang.SHORTCUT_ADD_BILL"
+            android:targetPackage="com.natsuki.qingjizhang"
+            android:targetClass="com.natsuki.qingjizhang.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="view_stats"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_stats"
+        android:shortcutShortLabel="@string/shortcut_stats_short"
+        android:shortcutLongLabel="@string/shortcut_stats_long">
+        <intent
+            android:action="com.natsuki.qingjizhang.SHORTCUT_STATS"
+            android:targetPackage="com.natsuki.qingjizhang"
+            android:targetClass="com.natsuki.qingjizhang.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="open_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_settings_short"
+        android:shortcutLongLabel="@string/shortcut_settings_long">
+        <intent
+            android:action="com.natsuki.qingjizhang.SHORTCUT_SETTINGS"
+            android:targetPackage="com.natsuki.qingjizhang"
+            android:targetClass="com.natsuki.qingjizhang.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

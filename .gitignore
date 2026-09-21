@@ -1,0 +1,38 @@
+# ============ IDE ============
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ============ Android Studio ============
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ============ Gradle ============
+.gradle/
+build/
+app/build/
+
+# ============ 敏感文件 ============
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+
+# ============ 打包产物 ============
+*.apk
+*.aab
+*.ap_
+*.dex
+release/
+app/release/
+app/debug/
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+*.log
+*.swp
