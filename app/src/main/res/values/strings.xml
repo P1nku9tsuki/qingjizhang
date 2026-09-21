@@ -1,0 +1,9 @@
+<resources>
+    <string name="shortcut_add_bill_short">记一笔</string>
+    <string name="shortcut_add_bill_long">快速记一笔账</string>
+    <string name="shortcut_stats_short">看统计</string>
+    <string name="shortcut_stats_long">查看收支统计</string>
+    <string name="shortcut_settings_short">设置</string>
+    <string name="shortcut_settings_long">打开应用设置</string>
+    <string name="app_name">轻记账</string>
+</resources>
