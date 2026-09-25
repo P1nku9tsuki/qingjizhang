@@ -101,7 +101,7 @@
 
 ## 📦 下载
 
-前往 [**Releases**](https://github.com/Plnku9tsuki/qingjizhang/releases) 页面，下载最新的 `app-release.apk`。
+前往 [**Releases**](https://github.com/P1nku9tsuki/qingjizhang/releases) 页面，下载最新的 `app-release.apk`。
 
 > 安装前请在系统设置中允许「安装未知来源应用」
 
@@ -121,7 +121,7 @@
 
 ## 📱 环境要求
 
-- **系统**：Android 13（API 33）及以上
+- **系统**：Android 12（API 31）及以上
 - **架构**：arm64-v8a / armeabi-v7a
 - **存储**：约 20 MB 可用空间
 
@@ -156,6 +156,14 @@
 
 ## 📝 更新日志
 
+### v1.1.0 · 2026-09-25
+
+**兼容性与优化**
+
+- 📱 最低支持版本降至 Android 12（API 31）
+- ⚡ 精简代码
+- 🔧 性能优化
+
 ### v1.0.0 · 2026-09-21
 
 **首个正式版本**
@@ -184,8 +192,8 @@
 
 这是一个个人项目，但欢迎任何形式的参与：
 
-- 🐛 **发现 Bug？** 提交 [Issue](https://github.com/Plnku9tsuki/qingjizhang/issues/new)
-- 💡 **有想法？** 提交 [Feature Request](https://github.com/Plnku9tsuki/qingjizhang/issues/new)
+- 🐛 **发现 Bug？** 提交 [Issue](https://github.com/P1nku9tsuki/qingjizhang/issues/new)
+- 💡 **有想法？** 提交 [Feature Request](https://github.com/P1nku9tsuki/qingjizhang/issues/new)
 - 🔧 **想改代码？** Fork 后提交 Pull Request
 - ⭐ **只是喜欢？** 给个 Star 就足够了
 

@@ -10,10 +10,10 @@ android {
 
     defaultConfig {
         applicationId = "com.natsuki.qingjizhang"
-        minSdk = 33
+        minSdk = 31
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
             splits {
@@ -82,8 +82,8 @@ android {
             implementation("top.yukonga.miuix.kmp:miuix-ui:0.9.2")
             implementation("top.yukonga.miuix.kmp:miuix-icons:0.9.2")
             implementation("top.yukonga.miuix.kmp:miuix-preference:0.9.2")
-            implementation("top.yukonga.miuix.kmp:miuix-blur:0.9.2")
-            implementation("io.github.fletchmckee.liquid:liquid:1.1.1")
+            //implementation("top.yukonga.miuix.kmp:miuix-blur:0.9.2")
+            //implementation("io.github.fletchmckee.liquid:liquid:1.1.1")
             val roomVersion = "2.7.0-alpha11"
             implementation("androidx.room:room-runtime:$roomVersion")
             implementation("androidx.room:room-ktx:$roomVersion")
